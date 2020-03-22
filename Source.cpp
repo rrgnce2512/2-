@@ -23,7 +23,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	Point a(2, 2);
-	cout << "Âûâîæó òî÷êó À: " << a << endl;
+	cout << "Ã‚Ã»Ã¢Ã®Ã¦Ã³ Ã²Ã®Ã·ÃªÃ³ Ã€: " << a << endl;
 	a = a + Point(2, 3);
 	cout << "A + (2, 3) = " << a << endl;
 	a = a - Point(3, 3);
@@ -35,16 +35,16 @@ int main()
 	a += Point(4, 4);
 	cout << "A += (4, 4) = " << a << endl;
 	a -= Point(2, 1);
-	cout << "A += (2, 1) = " << a << endl;
+	cout << "A -= (2, 1) = " << a << endl;
 
-	cout << "Òî÷êà À == (5, 5)? – ";
+	cout << "Ã’Ã®Ã·ÃªÃ  Ã€ == (5, 5)? â€“ ";
 	if (a == Point(5, 5)) {
 		cout << "yes";
 	}
 	else {
 		cout << "no";
 	}
-	cout << endl << "Òî÷êà À == (4, 4)? – ";
+	cout << endl << "Ã’Ã®Ã·ÃªÃ  Ã€ == (4, 4)? â€“ ";
 	if (a == Point(4, 4)) {
 		cout << "yes";
 	}
